@@ -1,5 +1,7 @@
 print('Введите два числа:')
-a, b = list(map(int, input().split()))
+a = 1
+b = 2
+# a, b = list(map(int, input().split()))
 if (a%b == 0 or b%a ==0):
     if (a%b ==0):
         print('a делится на b')
